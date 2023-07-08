@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Skate Ipsum</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      html {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+        font-size: 1rem;
+      }
+      #root {
+        margin: auto;
+        max-width: 960px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      fetch("/api/skate-ipsum").then((response) => {
+        response.json().then((data) => {
+          const wrapper = document.createElement("div");
+          data.forEach((item) => {
+            const paraphraph = document.createElement("p");
+            paraphraph.innerHTML = item;
+            wrapper.appendChild(paraphraph);
+          });
+          document.getElementById("root").appendChild(wrapper);
+        });
+      });
+    </script>
+  </body>
+</html>

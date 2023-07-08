@@ -1,0 +1,7 @@
+[build]
+  publish = "./netlify/public"
+
+[[redirects]]
+  from = "/api/skate-ipsum"
+  to = "/.netlify/functions/skate-ipsum"
+  status = 200
