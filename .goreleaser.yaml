@@ -44,7 +44,7 @@ brews:
     goarm: 6
     repository:
       owner: madflow
-      name: homebrew-skate-ipsum,
+      name: homebrew-skate-ipsum
     url_template: "https://github.com/madflow/skate-ipsum/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
     commit_author:
       name: Madflow
