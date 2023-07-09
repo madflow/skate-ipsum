@@ -70,7 +70,7 @@ nfpms:
 scoop:
   bucket:
     owner: madflow
-    name: skate-ipsum-bucket
+    name: scoop-bucket
   description: "Skate Ipsum is a tool for generating random skateboarding related text."
   homepage: "https://github.com/madflow/skate-ipsum"
   license: MIT
