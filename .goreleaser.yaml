@@ -41,21 +41,14 @@ changelog:
       - "^test:"
 brews:
   - name: skate-ipsum
-    goarm: 6
     repository:
       owner: madflow
       name: homebrew-skate-ipsum
     url_template: "https://github.com/madflow/skate-ipsum/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
-    commit_author:
-      name: Madflow
-      email: skate-ipsum@frikadelic.net
     folder: Formula
     homepage: "https://github.com/madflow/skate-ipsum"
     description: "Skate Ipsum is a tool for generating random skateboarding related text."
     license: "MIT"
-    dependencies:
-      - name: go
-        type: optional
     test: |
       system "#{bin}/skate"
     install: |
