@@ -66,3 +66,16 @@ nfpms:
     description: "Skate Ipsum is a tool for generating random skateboarding related text."
     license: "MIT"
     file_name_template: "{{.ProjectName}}_{{.Version}}_{{.Os}}-{{.Arch}}"
+
+scoop:
+  bucket:
+    owner: madflow
+    name: skate-ipsum-bucket
+  description: "Skate Ipsum is a tool for generating random skateboarding related text."
+  homepage: "https://github.com/madflow/skate-ipsum"
+  license: MIT
+announce:
+  twitter:
+    # Wether its enabled or not.
+    # Defaults to false.
+    enabled: false
