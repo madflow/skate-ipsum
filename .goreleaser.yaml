@@ -56,7 +56,10 @@ brews:
 
 nfpms:
   - formats:
+      - apk
       - deb
+      - rpm
+      - archlinux
     vendor: "skate-ipsum.localhost"
     homepage: "https://github.com/madflow/skate-ipsum"
     maintainer: "madflow"

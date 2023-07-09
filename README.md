@@ -32,9 +32,17 @@ Use "skate [command] --help" for more information about a command.
 
 ## Install the CLI
 
-### Binaries
+### Binaries and Packages
 
 - Head on over to https://github.com/madflow/skate-ipsum/releases/ and download the latest release.
+
+### Go install
+
+- You can [install Go](https://golang.org/dl/) and build from source (requires Go 1.17+):
+
+```bash
+go install github.com/madflow/skate-ipsum@latest
+```
 
 ### Run the CLI using Docker
 
