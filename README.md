@@ -24,8 +24,9 @@ help Help about any command
 server Start a skate ipsum api server
 
 Flags:
--h, --help help for skate-ipsum
--p, --paragraphs int number of paragraphs (default 10)
+-h, --help        help for skate-ipsum
+-p, --paragraphs  int number of paragraphs (default 10)
+-w, --width int   print width (default 120)
 
 Use "skate [command] --help" for more information about a command.
 ```
