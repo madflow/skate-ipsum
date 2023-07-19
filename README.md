@@ -51,10 +51,21 @@ go install github.com/madflow/skate-ipsum@latest
 docker run -it --rm ghcr.io/madflow/skate-ipsum:latest
 ```
 
-### Homebrew
+### MacOS
+
+#### Homebrew
 
 ```bash
 brew install madflow/skate-ipsum/skate-ipsum
+```
+
+### Windows
+
+#### Scoop
+
+```bash
+scoop bucket add madflow_scoop-bucket https://github.com/madflow/scoop-bucket
+scoop install madflow_scoop-bucket/skate-ipsum
 ```
 
 ## Deploy the ipsum server
