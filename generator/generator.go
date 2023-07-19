@@ -51,7 +51,7 @@ func IpsumArray(numberOfParagraphs int) []string {
 }
 
 func IpsumText(numberOfParagraphs int) string {
-	return strings.Join(IpsumArray(numberOfParagraphs), "\n\n")
+	return strings.Join(IpsumArray(numberOfParagraphs), "\n")
 }
 
 func IpsumJson(numberOfParagraphs int) string {

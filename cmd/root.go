@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/jedib0t/go-pretty/text"
 	"github.com/spf13/cobra"
 
 	"github.com/madflow/skate-ipsum/generator"
@@ -12,8 +13,7 @@ import (
 type SkateOpt struct {
 	LeadingText string
 	Paragraphs  int
-	Sentences   int
-	DoLead      bool
+	PrintWidth  int
 }
 
 var skateOpt SkateOpt
@@ -33,6 +33,7 @@ func Execute() {
 
 func init() {
 	rootCmd.Flags().IntVarP(&skateOpt.Paragraphs, "paragraphs", "p", 10, "number of paragraphs")
+	rootCmd.Flags().IntVarP(&skateOpt.PrintWidth, "width", "w", 120, "print width")
 }
 
 func ipsumRun(cmd *cobra.Command, args []string) {
@@ -40,7 +41,10 @@ func ipsumRun(cmd *cobra.Command, args []string) {
 		panic("too many paragraphs")
 	}
 
-	outputText := generator.IpsumText(skateOpt.Paragraphs)
+	outputTexts := generator.IpsumArray(skateOpt.Paragraphs)
 
-	fmt.Println(outputText)
+	for _, outputText := range outputTexts {
+		fmt.Println(text.WrapSoft(outputText, skateOpt.PrintWidth))
+		fmt.Println()
+	}
 }
