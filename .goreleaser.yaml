@@ -97,7 +97,7 @@ aurs:
 
     private_key: "{{ .Env.AUR_KEY }}"
 
-    git_url: "git@github.com:madflow/skate-ipsum.git"
+    git_url: "ssh://aur@aur.archlinux.org/skate-ipsum.git"
 
     skip_upload: false
 
