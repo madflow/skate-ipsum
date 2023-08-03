@@ -84,6 +84,12 @@ aurs:
 
     description: "Skate Ipsum is a tool for generating random skateboarding related text."
 
+    provides:
+      - skate
+
+    conflicts:
+      - skate
+
     maintainers:
       - "madflow"
 
