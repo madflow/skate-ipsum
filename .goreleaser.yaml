@@ -39,6 +39,7 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
+
 brews:
   - name: skate-ipsum
     repository:
@@ -67,18 +68,14 @@ nfpms:
     license: "MIT"
     file_name_template: "{{.ProjectName}}_{{.Version}}_{{.Os}}-{{.Arch}}"
 
-scoop:
-  bucket:
-    owner: madflow
-    name: scoop-bucket
-  description: "Skate Ipsum is a tool for generating random skateboarding related text."
-  homepage: "https://github.com/madflow/skate-ipsum"
-  license: MIT
-announce:
-  twitter:
-    # Wether its enabled or not.
-    # Defaults to false.
-    enabled: false
+scoops:
+  - name: skate-ipsum
+    repository:
+      owner: madflow
+      name: scoop-bucket
+    description: "Skate Ipsum is a tool for generating random skateboarding related text."
+    homepage: "https://github.com/madflow/skate-ipsum"
+    license: MIT
 
 aurs:
   - name: skate-ipsum
@@ -99,7 +96,7 @@ aurs:
 
     git_url: "ssh://aur@aur.archlinux.org/skate-ipsum.git"
 
-    skip_upload: false
+    skip_upload: true
 
     package: |-
       # bin
