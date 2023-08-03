@@ -79,3 +79,28 @@ announce:
     # Wether its enabled or not.
     # Defaults to false.
     enabled: false
+
+aurs:
+  - name: skate-ipsum
+
+    ids:
+      - skate-ipsum
+
+    homepage: "https://github.com/madflow/skate-ipsum"
+
+    description: "Skate Ipsum is a tool for generating random skateboarding related text."
+
+    maintainers:
+      - "madflow"
+
+    license: "MIT"
+
+    private_key: "{{ .Env.AUR_KEY }}"
+
+    git_url: "git@github.com:madflow/skate-ipsum.git"
+
+    skip_upload: false
+
+    commit_author:
+      name: Skate Ipsum Releaser
+      email: aur@skate-ipsum
