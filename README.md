@@ -24,9 +24,9 @@ help Help about any command
 server Start a skate ipsum api server
 
 Flags:
--h, --help        help for skate-ipsum
--p, --paragraphs  int number of paragraphs (default 10)
--w, --width int   print width (default 120)
+-h, --help help for skate-ipsum
+-p, --paragraphs int number of paragraphs (default 10)
+-w, --width int print width (default 120)
 
 Use "skate [command] --help" for more information about a command.
 ```
@@ -49,6 +49,16 @@ go install github.com/madflow/skate-ipsum@latest
 
 ```bash
 docker run -it --rm ghcr.io/madflow/skate-ipsum:latest
+```
+
+### Linux
+
+### Arch Linux
+
+Install with `yay` or your AUR tool of choice.
+
+```bash
+yay -S skate-ipsum-bin
 ```
 
 ### MacOS
