@@ -101,6 +101,10 @@ aurs:
 
     skip_upload: false
 
+    package: |-
+      # bin
+      install -Dm755 "./skate" "${pkgdir}/usr/bin/skate"
+
     commit_author:
       name: Skate Ipsum Releaser
       email: aur@skate-ipsum
