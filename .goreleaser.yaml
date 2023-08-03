@@ -93,7 +93,7 @@ aurs:
 
     git_url: "ssh://aur@aur.archlinux.org/skate-ipsum.git"
 
-    skip_upload: true
+    skip_upload: auto
 
     package: |-
       # bin
