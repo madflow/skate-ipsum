@@ -15,8 +15,8 @@ An attempt to get the "gnarlier lorem ipsum generator" back. And ... to experime
 A gnarlier ipsum generator
 
 Usage:
-skate [flags]
-skate [command]
+skate-ipsum [flags]
+skate-ipsum [command]
 
 Available Commands:
 completion Generate the autocompletion script for the specified shell
@@ -25,10 +25,11 @@ server Start a skate ipsum api server
 
 Flags:
 -h, --help help for skate-ipsum
+-l, --lead lead with dolor sit amet
 -p, --paragraphs int number of paragraphs (default 10)
 -w, --width int print width (default 120)
 
-Use "skate [command] --help" for more information about a command.
+Use "skate-ipsum [command] --help" for more information about a command.
 ```
 
 ## Install the CLI
