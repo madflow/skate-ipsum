@@ -1,0 +1,12 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["madflow@localhost"]
+description = "Skate Ipsum is a tool for generating random skateboarding related text - on the edge."
+language = "go"
+manifest_version = 3
+name = "skate-ipsum"
+service_id = "bcjYlElxLJqJPK6TausQd4"
+
+[scripts]
+build = "tinygo build -target=wasi -gc=conservative -o bin/main.wasm ./fastly/skate-ipsum.go"

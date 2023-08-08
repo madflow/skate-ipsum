@@ -96,3 +96,7 @@ docker run -it --rm -p 6969:6969 ghcr.io/madflow/skate-ipsum:latest server
 
 - Just use the Docker image and the command/entrypoint `/usr/local/bin/skate-ipsum server`
 - Example: https://skate-ipsum.onrender.com/
+
+### Edge Computing
+
+- Fastly: https://mutually-robust-chow.edgecompute.app/
