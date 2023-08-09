@@ -35,7 +35,9 @@ var serverCmd = &cobra.Command{
 	Use:   "server",
 	Short: "Start a skate ipsum api server",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Server is running ...")
+		fmt.Println()
+		fmt.Println("🛵 Skate Ipsum Server running on http://" + serverOpt.Address + ":" + fmt.Sprint(serverOpt.Port))
+		fmt.Println()
 		http.Handle("/", paragrapsHandler())
 
 		err := http.ListenAndServe(":6969", nil)
