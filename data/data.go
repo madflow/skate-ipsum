@@ -49,6 +49,7 @@ var ProperNouns = []string{
 	"Dustin Dollin",
 	"Dylan Rieder",
 	"Ed Templeton",
+	"El Toro",
 	"Eight Dayz",
 	"Elissa Steamer",
 	"Eric Koston",
