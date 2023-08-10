@@ -202,7 +202,6 @@ var ProperNouns = []string{
 	"Yuto Horigome",
 	"Z-Roller",
 	"Zorlac",
-	"bean plant",
 	"mINUTEMEN",
 }
 
@@ -226,6 +225,7 @@ var RandomPhrases = []string{
 	"bail",
 	"bank",
 	"baseplate",
+	"bean plant",
 	"bearings",
 	"berm",
 	"betty",
@@ -394,7 +394,7 @@ var RandomPhrases = []string{
 	"tail",
 	"tailslide",
 	"tic-tac",
-	"Tracker",
+	"tracker",
 	"transfer",
 	"transition",
 	"trucks",
