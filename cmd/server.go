@@ -40,7 +40,7 @@ var serverCmd = &cobra.Command{
 		fmt.Println()
 		http.Handle("/", paragrapsHandler())
 
-		err := http.ListenAndServe(":6969", nil)
+		err := http.ListenAndServe(fmt.Sprintf("%s:%d", serverOpt.Address, serverOpt.Port), nil)
 		if err != nil {
 			panic(err)
 		}
