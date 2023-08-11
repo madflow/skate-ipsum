@@ -102,4 +102,21 @@ docker run -it --rm -p 6969:6969 ghcr.io/madflow/skate-ipsum:latest server
 - Fastly: https://mutually-robust-chow.edgecompute.app/
 
 <!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/madflow">
+            <img src="https://avatars.githubusercontent.com/u/183248?v=4" width="100;" alt="madflow"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/bartrail">
+            <img src="https://avatars.githubusercontent.com/u/293793?v=4" width="100;" alt="bartrail"/>
+            <br />
+            <sub><b>Conrad Barthelmes</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
