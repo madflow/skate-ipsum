@@ -101,6 +101,8 @@ docker run -it --rm -p 6969:6969 ghcr.io/madflow/skate-ipsum:latest server
 
 - Fastly: https://mutually-robust-chow.edgecompute.app/
 
+## Skate Ipsum is made possible by all these gnarly Rippers
+
 <!-- readme: contributors -start -->
 <table>
 <tr>
