@@ -100,3 +100,6 @@ docker run -it --rm -p 6969:6969 ghcr.io/madflow/skate-ipsum:latest server
 ### Edge Computing
 
 - Fastly: https://mutually-robust-chow.edgecompute.app/
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
